@@ -1,0 +1,101 @@
+html {
+
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(imagem/Pgs5LX.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw 100vh;
+
+
+}
+
+form {
+
+
+
+    width: 90%;
+    min-width: 28.125em;
+    max-width: 35em;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    padding: 1em;
+    border-radius: 10px;
+    border: solid white 1px;
+
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 3px;
+}
+
+input,
+textarea {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px transparent solid;
+    border-bottom-color: #bbb;
+    padding: 1.75em;
+    margin: 0.5em 0 2.5em;
+    color: white;
+    outline: none;
+}
+
+input:invalid:focus,
+textarea:invalid:focus {
+    border-bottom: 2px solid red;
+}
+
+input:focus,
+textarea:focus {
+
+    color: white;
+    border-bottom-color: green;
+    padding-left: 10px;
+}
+
+
+
+legend {
+    padding: 0.5em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+
+}
+
+
+
+.btn {
+
+    background-color: #003aa6;
+    color: white;
+    cursor: pointer;
+    padding: 0.7em;
+    font-size: 1.2em;
+    border-radius: 15px;
+    border: none;
+    float: right;
+
+
+
+}
